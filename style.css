@@ -1,19 +1,17 @@
 body{
     font-family: Arial, sans-serif;
-    text-align:center;
-    background:#f4f4f4;
+    max-width: 600px;
+    margin: 20px auto;
 }
 
-#products{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    margin-top:20px;
+textarea{
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
 }
 
-.card{
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 0 10px gray;
+.post{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
 }
